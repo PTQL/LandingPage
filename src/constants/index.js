@@ -1,21 +1,25 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, costaazul_playa, costaazul_buque, image1, image2, image3, image4, image5} from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Inicio",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Unete",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Convocatorias",
+  },
+  {
+    id: "about",
+    title: "Conocenos",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Contactanos",
   },
 ];
 
@@ -23,23 +27,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Limpieza",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Sumérgete en la acción transformadora para rescatar la pureza de nuestros ríos y playas. Devolviendo la belleza natural y vida marina a estos entornos acuáticos",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Arbolización",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Únete a la revolución verde y conviértete en arquitecto del futuro, donde los árboles se elevan como guardianes majestuosos del equilibrio ecológico",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Actividades de Impacto",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Participa en la transformación positiva de nuestras zonas turísticas y en la difusión del cambio ambiental en actividades culturales",
   },
 ];
 
@@ -73,65 +77,62 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "KG de residuos recolectados",
+    value: "+35000",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Árboles sembrados",
+    value: "+1000",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Municipalidades comprometidas",
+    value: "+14",
+  },
+  {
+    id: "stats-4",
+    title: "Empresas Responsables",
+    value: "+10",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links Utiles",
     links: [
       {
-        name: "Content",
+        name: "Contenido",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Como funcionamos",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
+        name: "Explora",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Terminos & Condiciones",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunidad",
     links: [
       {
-        name: "Help Center",
+        name: "Centro de ayuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Socios",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Sugerencias",
         link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
       },
       {
         name: "Newsletters",
@@ -140,7 +141,7 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Blog",
     links: [
       {
         name: "Our Partner",
@@ -193,5 +194,67 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+export const islandsData  = [
+  {
+    id:"islandsData-1",
+    imgSrc: costaazul_playa,
+    subtitle: "Islands",
+    title: "Bora Bora",
+    description: "Small South Pacific island northwest of Tahiti in French Polynesia, surrounded by motus."
+  },
+  {
+    id:"islandsData-2",
+    imgSrc: costaazul_buque,
+    subtitle: "Islands",
+    title: "Bali",
+    description: "It is an Indonesian island known and beautiful for its lush active volcanic mountains."
+  },
+  {
+    id:"islandsData-3",
+    imgSrc: costaazul_playa,
+    subtitle: "Islands",
+    title: "Palawan",
+    description: "Also known as La Paragua, it is the largest island in the province of Palawan."
+  }
+];
+
+export const items = [
+  {
+    imgSrc: image1,
+    category: 'design',
+    title: 'Slider 01',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
+    name: 'Name Slider 01',
+  },
+  {
+    imgSrc: image2,
+    category: 'design',
+    title: 'Slider 02',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
+    name: 'Name Slider 01',
+  },
+  {
+    imgSrc: image3,
+    category: 'design',
+    title: 'Slider 03',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
+    name: 'Name Slider 01',
+  },
+  {
+    imgSrc: image4,
+    category: 'design',
+    title: 'Slider 04',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
+    name: 'Name Slider 01',
+  },
+  {
+    imgSrc: image5,
+    category: 'design',
+    title: 'Slider 05',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
+    name: 'Name Slider 01',
   },
 ];

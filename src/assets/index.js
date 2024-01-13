@@ -4,7 +4,7 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import ptql2 from "./ptql2.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -23,6 +23,13 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import costaazul_buque from "./costaazul_buque.jpg";
+import costaazul_playa from "./costazul_playa.jpg";
+import image1 from "./img1.png";
+import image2 from "./img2.jpg";
+import image3 from "./img3.jpg";
+import image4 from "./img4.jpg";
+import image5 from "./img5.jpg";
 
 export {
   airbnb,
@@ -31,7 +38,6 @@ export {
   card,
   coinbase,
   dropbox,
-  logo,
   quotes,
   robot,
   send,
@@ -50,4 +56,12 @@ export {
   people01,
   people02,
   people03,
+  ptql2,
+  costaazul_buque,
+  costaazul_playa,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
 };
