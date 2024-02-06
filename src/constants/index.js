@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, costaazul_playa, costaazul_buque, image1, image2, image3, image4, image5} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, costaazul_playa, costaazul_buque, rioChillonReunion, pocitosPlaya, petroleo, arenaMicroplastico} from "../assets";
 
 export const navLinks = [
   {
@@ -223,35 +223,35 @@ export const islandsData  = [
 
 export const items = [
   {
-    imgSrc: image1,
+    imgSrc: rioChillonReunion,
     category: 'design',
     title: 'Slider 01',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
     name: 'Name Slider 01',
   },
   {
-    imgSrc: image2,
+    imgSrc: pocitosPlaya,
     category: 'design',
     title: 'Slider 02',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
     name: 'Name Slider 01',
   },
   {
-    imgSrc: image3,
+    imgSrc: petroleo,
     category: 'design',
     title: 'Slider 03',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
     name: 'Name Slider 01',
   },
   {
-    imgSrc: image4,
+    imgSrc: arenaMicroplastico,
     category: 'design',
     title: 'Slider 04',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
     name: 'Name Slider 01',
   },
   {
-    imgSrc: image5,
+    imgSrc: costaazul_playa,
     category: 'design',
     title: 'Slider 05',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',

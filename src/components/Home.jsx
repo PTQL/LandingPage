@@ -13,7 +13,7 @@ const Home = () => {
    
     let refreshInterval = setInterval(() => {
       setItemActive((prevItemActive) => (prevItemActive + 1) % items.length);
-    }, 5000);
+    }, 15000);
 
     return () => clearInterval(refreshInterval);
   }, [itemActive]);
