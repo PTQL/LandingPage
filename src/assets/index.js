@@ -33,7 +33,7 @@ import image5 from "./img5.jpg";
 import rioChillonReunion from "./rio_chillon_reunion.jpeg";
 import pocitosPlaya from "./pocitos_playa.jpg";
 // import petroleo from "./petroleo.jpg";
-import arenaMicroplastico from "./arena_microplastico.jpg";
+//import arenaMicroplastico from "./arena_microplastico.jpg";
 import sebasVSMar from "./sebas_vs_mar.jpg";
 
 export {
@@ -72,6 +72,6 @@ export {
   rioChillonReunion,
   pocitosPlaya,
   // petroleo,
-  arenaMicroplastico,
+  //arenaMicroplastico,
   sebasVSMar,
 };
