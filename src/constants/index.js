@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, costaazul_playa, costaazul_buque, rioChillonReunion, pocitosPlaya, petroleo, arenaMicroplastico} from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, costaazul_playa, costaazul_buque, rioChillonReunion, pocitosPlaya, arenaMicroplastico} from "../assets";
 
 export const navLinks = [
   {
@@ -237,7 +237,8 @@ export const items = [
     name: 'Name Slider 01',
   },
   {
-    imgSrc: petroleo,
+    imgSrc: pocitosPlaya,
+    // imgSrc: petroleo,
     category: 'design',
     title: 'Slider 03',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?',
